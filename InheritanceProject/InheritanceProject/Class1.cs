@@ -10,11 +10,17 @@ namespace InheritanceProject
     {
         public void Test1()
         {
-            Console.WriteLine("Method1");
+            int a = 5;
+            int b = 6;
+            int sum = a + b;
+            Console.WriteLine("Add two numbers:" + sum);
         }
         public void Test2()
         {
-            Console.WriteLine("Method2");
+            int a = 5;
+            int b = 3;
+            int sub = a - b;
+            Console.WriteLine("Substract two numbers: " + sub);
         }
 
     }
